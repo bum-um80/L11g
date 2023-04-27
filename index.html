@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriNova</title>
+    <link rel="shortcut icon" type="image/jpg"
+    href="maize.jpg" sizes="16x16">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .back-img {
+        position: fixed;
+        z-index: -1;
+        width: 100%;
+     
+        left: 0;
+        top: 0;
+        max-width: 100%;
+    }
+
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0 16px;
+        background: lightblue;
+        width: fit-content;
+        padding: 8px;
+        border-bottom-left-radius: 10px;
+
+    }
+
+    .menu a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+
+    }
+a { display: block;}
+    .section {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: flex-end;
+        color: white;
+        width: 100%;
+        margin-top: 40px;
+        padding-right: 100px;
+        flex-flow: column nowrap;
+        max-width: 100%;
+    }
+    .main-content 
+    {
+       width: 500px;
+       margin: 5px;
+    }
+    .footer {
+        display: flex;
+ justify-content: center;
+background-color: lightblue;
+			flex-direction: row;
+            z-index: -1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        
+    }
+</style>
+
+<body>
+    <img class="back-img" src="fon.jpg">
+    <header class="header">
+        <div class="menu">
+            <a href="rozrobka.html">Новини</a>
+            <a href="rozrobka.html">Про компанію</a>
+            <a href="rozrobka.html">Інвесторам</a>
+            <a href="rozrobka.html">Команда</a>
+            <a href="rozrobka.html">Закупівлі</a>
+            <a href="rozrobka.html">Контакти</a>
+        </div>
+
+    </header>
+    <section class="section">
+ <div class="main-content">
+    <h1 style="font-size: xx-large;">Сайт в розробці!!!</h1>
+ </div>
+    </section>
+    <footer class="footer">
+        <p style="margin-right: 20px">© 2023 Агрофірма "AgroNova". Всі права захищені.</p>
+        </footer>
+</body>
+</html>
